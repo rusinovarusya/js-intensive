@@ -9,5 +9,5 @@ logger.call(obj);
 
 logger.apply(obj);
 
-logger.bind(obj);
-logger();
+const loggerWithContext = logger.bind(obj);
+loggerWithContext();
