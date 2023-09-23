@@ -12,8 +12,9 @@ class PersonThree {
   }
 }
 
+const Person = PersonThree; // другая ссылка на тот же класс
 
-class Person extends PersonThree {
+class ClassFromPerson extends Person { // сделать класс наследник от класса `Person`
   sayHi() {
     console.log(`Hi, I am ${this.name}`);
   }
