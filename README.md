@@ -22,7 +22,7 @@ promiseTwo
    return res + "d";
 })
 .then((res) => {
-   console.log(res); // "abcd"
+   console.log(res); // "abc"
 });``
 
 # 2.
@@ -32,18 +32,18 @@ promiseTwo
 
 doSmth()
 .then(function (a) {
-   console.log("1", a); // "1"
+   console.log("1", a); // "1undefined" or "1123"
    return a;
 })
 .then(function (b) {
-   console.log("2", b); // 
+   console.log("2", b); // "21123"
    return Promise.reject("321");
 })
 .catch(function (err) {
-   console.log("3", err); //
+   console.log("3", err); // "3321"
 })
 .then(function (c) {
-   console.log("4", c); //
+   console.log("4", c); // "41123"
 return c;
 });``
 
