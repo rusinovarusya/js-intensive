@@ -59,14 +59,15 @@ SessionStorage - объект, существует только в рамках
 ### 3. HTML / CSS - Базовая структура html документа, БЭМ методология
 
 Базовая структура html документа:
-`<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-  </head>
-  <body></body>
-</html>`
+
+`<!DOCTYPE html>`
+`<html lang="en">`
+  `<head>`
+    `<meta charset="UTF-8">`
+    `<title>Title</title>`
+  `</head>`
+  `<body></body>`
+`</html>`
 
 CSS - Cascading Style Sheets
 
