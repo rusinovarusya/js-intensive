@@ -3,8 +3,11 @@
 ## Задание 7 - (DOM / BOM)
 
 ### 1. Почитать про принципы программирования KISS, DRY, YAGNI + почитать про "Антипаттерны" Чистого кода
+
 KISS - Keep it short and simple
+
 DRY - Don't repeat yourself
+
 YAGNI - You aren't gonna need it
 
 Антипаттерны чистого кода:
@@ -69,51 +72,10 @@ CSS - Cascading Style Sheets
 
 Варианты подключения стилей:
 
-- ``<!DOCTYPE html>
-<html>
-   <head>
-      .....
-     <link rel="stylesheet" type="text/css" href="style.css">
-   </head>
-   <body>
-      .....
-   </body>
-</html>``
-- ``<!DOCTYPE html>
-<html>
-   <head>
-      .....
-      <style media="all">
-         @import url(style.css);
-      </style>
-   </head>
-</html>``
-- ``<!DOCTYPE html>
-<html>
-   <head>
-      .....
-      <style>
-         body { 
-            color: red;
-         }
-      </style>
-   </head>
-   <body>
-      .....
-   </body>
-</html>``
-- ``<!DOCTYPE html>
-<html>
-   <head>
-      .....
-   </head>
-   <body>
-      <p style="font-size: 20px; color: green; font-family: arial, helvetica, sans-serif">
-         .....
-      </p>
-   </body>
-</html>
-``
+- `<head><link rel="stylesheet" type="text/css" href="style.css"></head>`
+- `<style media="all">@import url(style.css);</style>`
+- `<style>body { color: red; }</style>`
+- `<p style="font-size: 20px; color: green; font-family: arial, helvetica, sans-serif"></p>`
 
 ### 4. Почитать про паттерны функционального программирования + посмотреть примеры использования
 
@@ -148,7 +110,7 @@ CSS - Cascading Style Sheets
 
 или
 
-- `*`: 1
+- *: 1
 - тег: 10
-- `<style></style>`: 100
+- <style></style>: 100
 - import: 1000
